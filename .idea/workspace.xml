@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901ef06b-6f87-4272-8bbd-6ec95f6dbba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AddExpenseForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/AppContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ContextValue.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Expense.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChangeBudget.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Budget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Budget.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseTotal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseTotal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Remaining.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Remaining.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/AppContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/AppContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Reducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Reducers.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
       <workItem from="1615713215839" duration="769000" />
       <workItem from="1615714616218" duration="1619000" />
       <workItem from="1616026877119" duration="2093000" />
-      <workItem from="1616215625195" duration="6793000" />
+      <workItem from="1616215625195" duration="8241000" />
     </task>
     <servers />
   </component>

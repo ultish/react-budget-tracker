@@ -2,6 +2,8 @@ import {createContext, useReducer} from "react";
 import {ContextValue} from "../interfaces/ContextValue";
 import {ActionType} from "../interfaces/Reducers";
 
+// a reducer used with useReducer function to handle actions to modify the Context's state.
+// also kinda tedious... basically manually writing the ember store. Is redux better??
 const AppReducer = (state: ContextValue, action: any) => {
     switch (action.type) {
         case ActionType.Create:
@@ -19,6 +21,12 @@ const AppReducer = (state: ContextValue, action: any) => {
                 ...state,
                 expenses: state.expenses.filter(expense => expense.id !== action.payload)
             }
+        case ActionType.UpdateBudget:
+            debugger;
+            return {
+                ...state,
+                budget: action.payload
+            }
         default:
             return state;
     }
@@ -34,6 +42,7 @@ const initialState: ContextValue = {
     ],
 };
 
+// creates a global context that any component can use. Kinda tedious...
 export const AppContext = createContext<{
     state: ContextValue,
     dispatch: React.Dispatch<any>
@@ -45,6 +54,7 @@ export const AppContext = createContext<{
     dispatch: () => null
 });
 
+// can create multiple providers to inject multiple Contexts into a component
 export const AppProvider = (props: any) => {
     const [state, dispatch] = useReducer(AppReducer, initialState);
 

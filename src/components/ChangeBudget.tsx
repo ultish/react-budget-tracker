@@ -1,6 +1,8 @@
 import React, {ChangeEvent, FormEvent, useContext} from "react";
 import {AppContext} from "../context/AppContext";
 import {ActionType} from "../interfaces/Reducers";
+import './ChangeBudget.module.scss';
+import styles from './ChangeBudget.module.scss';
 
 const ChangeBudget = () => {
 
@@ -27,7 +29,7 @@ const ChangeBudget = () => {
             <input
                 required={true}
                 type="text"
-                className="form-control"
+                className={`form-control ${styles.test}`}
                 value={budget}
                 onChange={onBudgetChange}
             />

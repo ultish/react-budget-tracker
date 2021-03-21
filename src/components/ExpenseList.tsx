@@ -19,7 +19,6 @@ const ExpenseList = () => {
 
     return (
         <>
-
             <input
                 placeholder='Filter...'
                 type="text"
@@ -43,5 +42,6 @@ const ExpenseList = () => {
             </ul>
         </>
     )
-}
+};
+
 export default ExpenseList;

@@ -22,7 +22,6 @@ const AppReducer = (state: ContextValue, action: any) => {
                 expenses: state.expenses.filter(expense => expense.id !== action.payload)
             }
         case ActionType.UpdateBudget:
-            debugger;
             return {
                 ...state,
                 budget: action.payload
